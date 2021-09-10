@@ -1,1 +1,1 @@
-#prakerja-hacktiv8
+Respository ini dibuat untuk memenuhi proses penyelesaian kursus prakerja di Hacktiv8
