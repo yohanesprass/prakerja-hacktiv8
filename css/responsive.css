@@ -1,0 +1,295 @@
+@media (max-width:1190px) {
+    /* --- Top Banner Design -------- */
+    .home .top-banner .text p{
+        width: 50%;
+    }
+
+    /* --- Service ------------------ */
+}
+
+@media (max-width:1000px) {
+    /* --- Top Banner Design -------- */
+    .home .top-banner .text h1{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:900px) {
+    /* --- Header Design ------------ */
+    nav .navbar{
+        width: 90%;
+    }
+    nav .navbar .menu{
+        position: fixed;
+        left: -100%;
+        top: 0;
+        background-color: #fff;
+        height: 100vh;
+        max-width: 25rem;
+        width: 100%;
+        padding-top: 3.75rem;
+        flex-direction: column;
+        align-items: center;
+        transition: all 0.5s ease;
+    }
+
+    nav .menu-btn,
+    nav .menu .cancel-btn{
+        display: block;
+        color: #232323;
+    }
+
+    nav .menu-btn{
+        color: #fff;
+    }
+    nav .menu-btn.active{
+        color: #232323;
+    }
+    .navbar.active .menu{
+        left: 0;
+    }
+    nav .navbar .menu li a{
+        font-size: 1.4375rem;
+        color: #232323;
+        display: block;
+        margin: 0.625rem 0;
+        cursor: pointer;
+    }
+
+    /* --- Top Banner Design -------- */
+    .home .top-banner .text p{
+        width: 70%;
+    }
+
+    /* --- Service ------------------ */
+    .about .sec-content .sec-title h2{
+        font-size: 2rem;
+    }
+
+    .about-content .left img{
+        height: 30%;
+        width: auto;
+        align-items: left;
+    }
+
+    .about-content .right h2{
+        font-size: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .about-content .right p{
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    .portfolio .third-content .third-title h2{
+        font-size: 2rem;
+    }
+
+    .portfolio .third-content .third-title p{
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    .portfolio .portfolio-content .gallery{
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 180px;
+        align-items: center;
+    }
+
+    .blog .fouth-content .fouth-title h2{
+        font-size: 2rem;
+    }
+
+    .blog .fouth-content .fouth-title p{
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    .blog .fouth-content .card-wrapper {
+        height: 30%;
+        width: auto;
+    }
+
+
+    /* --- Blog ------------ */
+}
+
+@media (max-width:750px){
+    /* --- Top Banner Design -------- */
+    .home .top-banner .content{
+        width: 90%;
+    }
+    .home .top-banner .text h1{
+        font-size: 2rem;
+    }
+    .home .top-banner.text p{
+        width: 90%;
+    }
+}
+
+/* --- Blog -------------------------- */
+.blog .fouth-content {
+    height: 90%;
+}
+.blog .fouth-content .text h2{
+    font-size: 1rem;
+}
+
+.blog .fouth-content .text p{
+    width: 90%;
+}
+
+.blog .fouth-content .card{
+    width: 50%;
+}
+
+.blog .fouth-content .card__image{
+    width: 50%;
+}
+
+.blog .fouth-content .card__arc{
+    width: 50%;
+}
+
+@media (max-width:350px){
+/* --- Top Banner Design -------- */
+    .home .top-banner .text h1{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .screen-body {
+      flex-direction: column;
+    }
+  
+    .screen-body-item.left {
+      margin-bottom: 30px;
+    }
+  
+    .app-title {
+      flex-direction: row;
+    }
+  
+    .app-title span {
+      margin-right: 12px;
+    }
+  
+    .app-title:after {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .screen-body {
+      padding: 40px;
+    }
+  
+    .screen-body-item {
+      padding: 0;
+    }
+  }
+  
+  @media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }
+  
+  
+  @media (max-width: 600px) {
+	.gallery {
+	  grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+	}
+  }
+  @media (max-width: 400px) {
+	.gallery {
+	  grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+	}
+  }
+  @-moz-keyframes zoomin {
+	0% {
+	  max-width: 50%;
+	  transform: rotate(-30deg);
+	  filter: blur(4px);
+	}
+	30% {
+	  filter: blur(4px);
+	  transform: rotate(-80deg);
+	}
+	70% {
+	  max-width: 50%;
+	  transform: rotate(45deg);
+	}
+	100% {
+	  max-width: 100%;
+	  transform: rotate(0deg);
+	}
+  }
+  @-webkit-keyframes zoomin {
+	0% {
+	  max-width: 50%;
+	  transform: rotate(-30deg);
+	  filter: blur(4px);
+	}
+	30% {
+	  filter: blur(4px);
+	  transform: rotate(-80deg);
+	}
+	70% {
+	  max-width: 50%;
+	  transform: rotate(45deg);
+	}
+	100% {
+	  max-width: 100%;
+	  transform: rotate(0deg);
+	}
+  }
+  @-o-keyframes zoomin {
+	0% {
+	  max-width: 50%;
+	  transform: rotate(-30deg);
+	  filter: blur(4px);
+	}
+	30% {
+	  filter: blur(4px);
+	  transform: rotate(-80deg);
+	}
+	70% {
+	  max-width: 50%;
+	  transform: rotate(45deg);
+	}
+	100% {
+	  max-width: 100%;
+	  transform: rotate(0deg);
+	}
+  }
+  @keyframes zoomin {
+	0% {
+	  max-width: 50%;
+	  transform: rotate(-30deg);
+	  filter: blur(4px);
+	}
+	30% {
+	  filter: blur(4px);
+	  transform: rotate(-80deg);
+	}
+	70% {
+	  max-width: 50%;
+	  transform: rotate(45deg);
+	}
+	100% {
+	  max-width: 100%;
+	  transform: rotate(0deg);
+	}
+  }
